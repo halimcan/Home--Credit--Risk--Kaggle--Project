@@ -57,7 +57,7 @@ https://www.kaggle.com/competitions/home-credit-default-risk
 ## Expected Data Structure
 
 After downloading, place the data under:
-
+```
 data/
 ├── raw/
 │   ├── application_train.csv
@@ -65,7 +65,7 @@ data/
 │   ├── bureau.csv
 │   └── previous_application.csv
 └── processed/
-
+```
 
 All notebooks and scripts assume this folder structure.
 
@@ -130,3 +130,4 @@ Notebook outputs are intentionally cleared before commits.
 Large datasets are excluded via .gitignore.
 
 The repository is designed to be lightweight and reviewer-friendly.
+
