@@ -19,22 +19,18 @@ Reproducibility and scalability
 Project Structure
 
 home-credit-risk/
-
-├── data
-
-    ├── raw    
-    ├── processed
-    
+├── data/
+│   ├── raw/
+│   └── processed/
 ├── notebooks/
 │   ├── 01_eda.ipynb
 │   ├── 02_feature_engineering.ipynb
 │   └── 03_modeling.ipynb
-
-├── outputs/reports
-
-    ├── FINAL_MODEL_Report     
+├── outputs/
+│   └── reports/
+│       └── FINAL_MODEL_Report
 ├── requirements.txt
-├── readme.md
+├── README.md
 └── .gitignore
 
 
@@ -125,6 +121,7 @@ Notebook outputs are intentionally cleared before commits.
 Large datasets are excluded via .gitignore.
 
 The repository is designed to be lightweight and reviewer-friendly.
+
 
 
 
