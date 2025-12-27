@@ -16,8 +16,9 @@ Model training & evaluation
 Reproducibility and scalability
 
 
-Project Structure
+## Project Structure
 
+```
 home-credit-risk/
 ├── data/
 │   ├── raw/
@@ -28,10 +29,19 @@ home-credit-risk/
 │   └── 03_modeling.ipynb
 ├── outputs/
 │   └── reports/
-│       └── FINAL_MODEL_Report
+│       └── FINAL_MODEL_Report.pdf
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
+
+### Folder Descriptions
+
+- **data/**: Raw and processed datasets used in the project  
+- **notebooks/**: EDA, feature engineering, and modeling notebooks  
+- **outputs/**: Final reports and model artifacts  
+- **requirements.txt**: Python dependencies
+
 
 
 Dataset
@@ -121,6 +131,7 @@ Notebook outputs are intentionally cleared before commits.
 Large datasets are excluded via .gitignore.
 
 The repository is designed to be lightweight and reviewer-friendly.
+
 
 
 
