@@ -1,4 +1,4 @@
- Home Credit Default Risk – Kaggle Project
+## Home Credit Default Risk – Kaggle Project
  
 Project Overview
 
@@ -44,7 +44,7 @@ home-credit-risk/
 
 
 
-Dataset
+## Dataset
 
 Due to size limitations, raw and processed datasets are not included in this repository.
 
@@ -54,7 +54,7 @@ Kaggle – Home Credit Default Risk
 
 https://www.kaggle.com/competitions/home-credit-default-risk
 
-Expected Data Structure
+## Expected Data Structure
 
 After downloading, place the data under:
 
@@ -70,7 +70,7 @@ data/
 All notebooks and scripts assume this folder structure.
 
 
-Environment Setup
+## Environment Setup
 1️) Create virtual environment (optional but recommended)
 python -m venv .venv
 source .venv/bin/activate
@@ -91,7 +91,7 @@ Run notebooks in order:
 03_modeling.ipynb
 
 
-Modeling Approach
+## Modeling Approach
 
 Handling missing values
 
@@ -104,16 +104,15 @@ Model evaluation using appropriate classification metrics
 The focus is on interpretable and reproducible results, not leaderboard overfitting.
 
 
-Evaluation Metrics
+## Evaluation Metrics
 
 ROC-AUC
 KS Score
 
-
 (Details and results are available inside the modeling notebook.)
 
 
-Key Learnings
+## Key Learnings
 
 Working with large, multi-table financial datasets
 
@@ -124,18 +123,10 @@ Preventing data leakage
 Managing large datasets outside GitHub
 
 
-Notes
+## Notes
 
 Notebook outputs are intentionally cleared before commits.
 
 Large datasets are excluded via .gitignore.
 
 The repository is designed to be lightweight and reviewer-friendly.
-
-
-
-
-
-
-
-
