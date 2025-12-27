@@ -33,7 +33,6 @@ home-credit-risk/
 │   └── 03_modeling.ipynb
 
 ├── outputs/reports
-
     ├── FINAL_MODEL_Report 
     
 ├── requirements.txt
@@ -130,6 +129,7 @@ Notebook outputs are intentionally cleared before commits.
 Large datasets are excluded via .gitignore.
 
 The repository is designed to be lightweight and reviewer-friendly.
+
 
 
 
