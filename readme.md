@@ -21,9 +21,7 @@ Project Structure
 home-credit-risk/
 
 ├── data
-
-    ├── raw
-    
+    ├── raw    
     ├── processed
     
 ├── notebooks/
@@ -132,6 +130,7 @@ Notebook outputs are intentionally cleared before commits.
 Large datasets are excluded via .gitignore.
 
 The repository is designed to be lightweight and reviewer-friendly.
+
 
 
 
